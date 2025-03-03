@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+<!-- This area is for instructions for the browser and citations -->
+<meta charset="utf-8">
+<title>Default-Tempalate</title>
+<!-- Title is the words that would show on the tab-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The area on top is for make website responsive for any size screen-->
+<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <h2>Jamie's Web Coding Journey</h2>
+        <nav>
+            <a href="index.html#my-projects">Projects</a>
+            <a href="index.html#practice">Practice</a>
+            <a href="#">Portfolio</a>
+
+        </nav>
+    </header>
+
+    <section class="hero-area">
+        <div class="hero-text">
+        <h1>HTML Advice</h1>
+        </div>
+
+    </section>
+    <main class="html-advice-main">
+
+        <div class="main-content-column-html-advice">
+            <div class="intro">
+                <section class="introduction">
+                    <h3>6 Dos and Don’ts of Writing Good and Valid HTML 5</h3>
+                    <p>The purpose of HTML is to describe the structure and the content of the webpage and nothing else. Good HTML is written clearly, cleanly, consistently, and with a good structure. Valid HTML follows the conventions and best practices established by HTML 5 resources and ensures that nothing strange, broken or unexpected will happen when CSS, Javascript and other code is applied to the structure and content of the page.</p>
+
+                </section>
+            </div>
+
+            <div class="html advices">
+
+                <section class="advice">
+                    <h5>Use heading elements in the proper hierarchical order.</h5>
+                    <p>The purpose of HTML is to describe the structure and the content of the webpage and nothing else. Good HTML is written clearly, cleanly, consistently, and with a good structure. Valid HTML follows the conventions and best practices established by HTML 5 resources and ensures that nothing strange, broken or unexpected will happen when CSS, Javascript and other code is applied to the structure and content of the page.</p>
+
+                </section>
+
+                <section class="advice">
+                    <h5>Don’t use HTML to for styling</h5>
+                    <p>Styling instructions that set the amount of space above and below an element of text should be handled by CSS. Using the &lt;br&gt; tag to create extra space breaks the separation of markup and styling and will make the website behave unpredictably.</p>
+
+                    <!-- I learned "&lt;" and "&gt;" by asking ChatGPT about how to make <things in here> into plain text -->
+
+                </section>
+
+                <section class="advice">
+                    <h5>Use the alt attribute to describe images for screen readers</h5>
+                    <p>An accessible web is an inclusive one. People with visual impairments can’t see images, nor can search engines. Be sure to use the alt attribute with every img element and include an accurate description of the content of any image. 
+
+                        This will also help you debug your code if the image fails to load.</p>
+
+                </section>
+
+                <section class="advice">
+                    <h5>The head is for anything that only the browser sees. The body is for everything the user sees</h5>
+                    <p>Anything that needs to be read, loaded and understood by the browser but not shown to the user should be enclosed in the &lt;head&gt; tag. This will include the page title, character set, meta information about how the page should load, and links to any linked files like stylesheets.
+
+                        The actual content of the web page that should display in the browser and be seen by the user should instead by enclosed by the &lt;body&gt; tag. No user facing content should precede or follow &lt;body&gt;.</p> 
+
+                </section>
+
+                <section class="advice">
+                    <h5>An attribute is extra information that defines how the element looks and/or behaves</h5>
+                    <p>Some elements require certain attributes, and almost any element can take optional attributes. An attribute is always found in the opening tag of an HTML element. Most have the syntax name=“value” though some attributes only require the name without any assigned value.They can be written in any order inside the opening tag. However, you shouldn’t put multiple instances of the same attribute inside the same HTML tag. If this happens, generally, only the last instance of the attribute is considered.</p>
+                    <!-- source of information from = https://blog.hubspot.com/website/html -->
+
+                </section>
+
+                <section class="advice">
+                    <h5>The div (division) element is a generic content container</h5>
+                    <p>Divs help organize the code into sections, which can then be targeted by CSS. They also add line breaks before and after their content. Otherwise, they do not affect the content or layout of the page unless styled with CSS. They are also useful for visually distinguishing different sections of the page.</p>
+                    <!-- source of information from = https://blog.hubspot.com/website/html -->
+                    
+                </section>
+
+            </div>
+
+        </div>
+
+        <aside>
+            <h3>Tutorials I’ve Used</h3>
+            <img src="img/placeholder-100.png" alt="just a placeholde imager" width="100" height="100">
+            <h5>Resource Name</h5>
+            <p class="heading-caption">Authour</p>
+            
+        </aside>
+
+    </main>
+
+    <footer>
+
+        <h2>Jamie's Web Coding Journey</h2>
+        <nav>
+            <a href="#">Contact</a>
+            <a href="#">Citations</a>
+            <a href="#">Portfolio</a>
+        </nav>
+        <p>All code used in the creation of this website has been written by me, with the aid of in class tutorials and many, many online resources. Full details of resources used and image sources can be found in the citation page.</p>
+
+    </footer>
+
+</body>
+
+</html>
