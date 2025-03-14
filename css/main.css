@@ -391,15 +391,24 @@ li{
 }
 
 .process-chunk-three-column li{
-    color:#212121
+    color:#212121;
+    margin-bottom: 2rem;
 
 }
 
+.insights-columns{
+
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+
+}
 
 .assumptions-examination-rows{
     grid-column: 1/3;
     display: grid;
-    grid-template-columns:32rem 30rem;
+    grid-template-columns:35rem 30rem;
     gap:4rem;
 }
 
